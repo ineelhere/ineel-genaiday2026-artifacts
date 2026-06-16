@@ -80,10 +80,6 @@ __pycache__/
 Thumbs.db
 Desktop.ini
 
-# Local logs and runtime output
-*.log
-*.jsonl
-log.jsonl
 
 # Generated local render artifacts not needed for GitHub Pages
 README.html
