@@ -47,3 +47,50 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# renv local state and installed package libraries
+renv/library/
+renv/staging/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache files from helper scripts
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editor and IDE local settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local logs and runtime output
+*.log
+*.jsonl
+log.jsonl
+
+# Generated local render artifacts not needed for GitHub Pages
+README.html
+llmshieldr.pdf
+genaiday_files/
+*_files/
+
+# Quarto/local preview state
+.quarto/
+_freeze/
